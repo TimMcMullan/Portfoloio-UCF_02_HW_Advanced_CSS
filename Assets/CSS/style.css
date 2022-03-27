@@ -1,0 +1,52 @@
+/* Set font size and line height */
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* set flexbox and styling for header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color:maroon;
+    color: #fff;
+    /* background-image: url(lasfj) */
+}
+
+/* set styling for h1 */
+h1 {
+    margin: 1%;
+    font-family: sans-serif;
+    color: bisque;
+}
+
+/* set styling for h2 */
+h2 {
+    margin: 3%;
+    font-size: 200%;
+}
+
+a: hover {
+    color: green;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 330px;
+    list-style-type: none;
+}
+
+nav a {
+    color:bisque;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:href, a: hover {
+    background color: #fff;
+}
