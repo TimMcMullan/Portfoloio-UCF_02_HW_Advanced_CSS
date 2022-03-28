@@ -14,14 +14,15 @@ header {
     align-items: center;
     background-color: rgb(247, 65, 95);
     color: #fff;
-    margin: 1%;
+    margin-left: 1px;
+    margin-right: 1px;
     }
 
 /* set styling for h1 */
 h1 {
-    margin: 1%;
     font-family: sans-serif;
     color: bisque;
+    margin: 1%;
 }
 
 /* set styling for h2 */
@@ -48,7 +49,7 @@ nav a {
     text-decoration: none;
 }
 /* background and cool subtitle */
- header1 {
+ section {
      display: flex;
      justify-content:end;
      background-image: url("../images/header_background.png");
@@ -57,7 +58,7 @@ nav a {
      padding-top: 5%;
       } 
 /* formatting for background image text     */
-header1 h2 {
+section h2 {
     background-color: rgb(247, 65, 95);
     color: bisque;
 }
