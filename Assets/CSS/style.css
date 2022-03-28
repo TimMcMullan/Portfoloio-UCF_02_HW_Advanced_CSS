@@ -38,20 +38,16 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
+    min-width: 330px;
     list-style-type: none;
 }
 
 /* styling for header navigation links */
 nav a {
     color:bisque;
-    font-weight: bold;
     text-decoration: none;
 }
 
-/* header a {
-    display: flex;
-    justify-content:flex-end;
-} */
  header1 {
      display: flex;
      justify-content:end;
