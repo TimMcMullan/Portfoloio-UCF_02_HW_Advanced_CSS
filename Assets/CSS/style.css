@@ -12,10 +12,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:maroon;
+    background-color: rgb(247, 65, 95);
     color: #fff;
-    /* background-image: url(lasfj) */
-}
+    }
 
 /* set styling for h1 */
 h1 {
@@ -28,17 +27,17 @@ h1 {
 h2 {
     margin: 3%;
     font-size: 200%;
+    );
 }
-
+/* Move nav away from right margin */
 nav {
     padding-right: 2%;
 }
 
-/* stying for unordered list */
+/* styling for unordered list */
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 330px;
     list-style-type: none;
 }
 
@@ -47,4 +46,22 @@ nav a {
     color:bisque;
     font-weight: bold;
     text-decoration: none;
+}
+
+/* header a {
+    display: flex;
+    justify-content:flex-end;
+} */
+ header1 {
+     display: flex;
+     justify-content:end;
+     min-width: 330px;
+     background-image: url(/assets/images/header_background.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     padding-top: 5%;
+      } 
+header1 h2 {
+    background-color: rgb(247, 65, 95);
+    color: bisque;
 }
