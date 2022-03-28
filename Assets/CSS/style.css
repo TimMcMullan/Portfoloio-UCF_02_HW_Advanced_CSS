@@ -51,7 +51,7 @@ nav a {
  header1 {
      display: flex;
      justify-content:end;
-     min-width: 330px;
+     /* min-width: 330px; */
      background-image: url(/assets/images/header_background.png);
      background-repeat: no-repeat;
      background-size: 100%;
