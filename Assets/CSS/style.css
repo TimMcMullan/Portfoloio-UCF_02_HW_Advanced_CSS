@@ -12,7 +12,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
     background-color:maroon;
     color: #fff;
     /* background-image: url(lasfj) */
@@ -31,9 +30,11 @@ h2 {
     font-size: 200%;
 }
 
-a: hover {
-    color: green;
+nav {
+    padding-right: 2%;
 }
+
+/* stying for unordered list */
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -41,12 +42,9 @@ nav ul {
     list-style-type: none;
 }
 
+/* styling for header navigation links */
 nav a {
     color:bisque;
     font-weight: bold;
     text-decoration: none;
-}
-
-a:href, a: hover {
-    background color: #fff;
 }
