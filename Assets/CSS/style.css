@@ -64,16 +64,17 @@ section h2 {
     color: bisque;
     justify-content:end;
 }
-
+/* set radius for image */
 img {
     border-radius: 18px;
 }
+/* initial settings for first section  */
 div {
     display: flex;
     justify-content: left;
     max-width: 70%; 
 }
-
+/* initial settings for sections */
 main {
     display: flex;
     justify-content: left;
