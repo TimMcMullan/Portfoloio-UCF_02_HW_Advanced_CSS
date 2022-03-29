@@ -49,7 +49,7 @@ nav a {
     text-decoration: none;
 }
 /* background and cool subtitle */
- section {
+#subtitle {
      display: flex;
      justify-content:end;
      background-image: url("../images/header_background.png");
@@ -57,8 +57,51 @@ nav a {
      background-size: 100%;
      padding-top: 5%;
       } 
+
 /* formatting for background image text     */
 section h2 {
     background-color: rgb(247, 65, 95);
     color: bisque;
+    justify-content:end;
 }
+
+img {
+    border-radius: 18px;
+}
+div {
+    display: flex;
+    justify-content: left;
+    max-width: 70%; 
+}
+
+main {
+    display: flex;
+    justify-content: left;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* .justify-center {
+    justify-content: end;
+  } */
+
+#about_me {
+    display: flex;
+    padding: 50px;
+    margin: 3%;
+    margin-left: 10%;
+    max-width: 70%;
+    align-items: center;
+}
+
+#verbiager {
+    display:flex;
+    padding: 5px;
+    margin: 3%;
+    align-items:flex-end;
+}
+

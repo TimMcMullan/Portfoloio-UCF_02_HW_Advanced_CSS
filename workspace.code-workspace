@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../UCF-VIRT-FSF-FT-03-2022-U-LOL/02-Advanced-CSS/02-Homework"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfoloio-UCF_02_HW_Advanced_CSS",
+		"liveServer.settings.port": 5502
+	}
+}
