@@ -59,7 +59,7 @@ nav a {
       } 
 
 /* formatting for background image text     */
-section h2 {
+h2 {
     background-color: rgb(247, 65, 95);
     color: bisque;
     justify-content:end;
@@ -79,17 +79,16 @@ main {
     display: flex;
     justify-content: left;
 }
-
+/* main set up  */
 .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
 }
 
-/* .justify-center {
-    justify-content: end;
-  } */
-
+/* initial settings for about me  */
 #about_me {
     display: flex;
     padding: 50px;
@@ -98,7 +97,14 @@ main {
     max-width: 70%;
     align-items: center;
 }
-
+/* display attributes for name in bio  */
+h3 {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    margin: 3%;
+}
+/* formatting for about me narrative */
 #verbiager {
     display:flex;
     padding: 5px;
@@ -106,3 +112,34 @@ main {
     align-items:flex-end;
 }
 
+/* formatting for work links */
+.work {
+    display: flex;
+    padding: 50px;
+    margin: 3%;
+    margin-left: 10%;
+    max-width: 70%;
+    align-items: center;
+}
+
+.homework1 {
+    background-image: url(./assets/images/code_refactor.jpeg);
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    flex direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.flex-layout {
+    display: flex;
+    flex-wrap:wrap;
+    flex ###3;
+}
+body {
+    width: 96%;
+    margin: 2rem auto;
+}
